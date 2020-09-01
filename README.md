@@ -6,11 +6,31 @@ Connpassのイベントから参加者をマークダウンのリスト形式で
 
 ## 使い方
 
+### コンテナを起動
+
+```bash
+$ docker-compose up -d --build
+```
+
+### コンテナへ接続
+
+```bash
+$ docker-compose exec python3 bash
+```
+
+### 実行
+
 ```bash
 $ python opt/get-participants.py <コンパスのイベントページURL>
 ```
 
-### 例
+### コンテナの削除
+
+```bash
+$ docker-compose down
+```
+
+## 例
 
 ```bash
 $ python opt/get-participants.py https://phper-oop.connpass.com/event/171008/
@@ -23,55 +43,23 @@ $ python opt/get-participants.py https://phper-oop.connpass.com/event/171008/
 
 ### 現地参加する人
 
-- [ ] ぐーどらくらんち
-- [ ] 白柳隆司
 - [ ] philomagi
-- [ ] とむやむ
-- [ ] Siena.
-- [ ] muno_92
+- [ ] soonoki
+- [ ] yapto6412
+- [ ] ikkun
+- [ ] stmtk
 
 ### オンライン参加する人
 
-- [ ] saka
-- [ ] Tommy07Tommy07
-- [ ] とよへい
-- [ ] すこってぃ
-- [ ] MasakiMurakami
 - [ ] 脱脂綿
-- [ ] amapetas
-- [ ] kotori_t
-- [ ] Takashi Shibata
+- [ ] deniyung
 - [ ] idani
-- [ ] わたさん
-- [ ] まみー
-- [ ] hmatsu47
-- [ ] anzyhr
-- [ ] cp_iwata69
-- [ ] polidog
-- [ ] kakiuchi
-- [ ] july7th1977
-- [ ] なべさん
-- [ ] migenao
-- [ ] poge3
-- [ ] KenjiYamauchi
-- [ ] irongineer
-- [ ] amasok
-- [ ] chiru
-- [ ] m-kamei
-- [ ] stmtk
-- [ ] ikkun
-- [ ] いとたけ
-- [ ] falloutkids
-- [ ] NakajimaJun
-- [ ] ミノ駆動
-- [ ] T.Ohsugi
-- [ ] ざき(zaki)
+- [ ] nunulk
 
 ### 開催する人
 
-- [ ] zima
 - [ ] hirodragon
-- [ ] yukimasa
+- [ ] ucan-lab
 
 ### ブログ書く人（じゅり）
 
